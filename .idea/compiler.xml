@@ -11,12 +11,14 @@
         <module name="service-product" />
         <module name="customer-service" />
         <module name="invoice-service" />
+        <module name="registry-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-service" target="17" />
       <module name="customer-service" target="17" />
       <module name="invoice-service" target="17" />
+      <module name="registry-service" target="17" />
       <module name="service-product" target="17" />
       <module name="shopping-service" target="17" />
     </bytecodeTargetLevel>
@@ -26,6 +28,7 @@
       <module name="config-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="invoice-service" options="-parameters" />
+      <module name="registry-service" options="-parameters" />
       <module name="service-product" options="-parameters" />
       <module name="shopping-service" options="-parameters" />
     </option>
