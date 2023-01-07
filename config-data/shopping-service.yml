@@ -10,3 +10,7 @@ spring:
     admin:
       client:
         url: http://localhost:8086
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
