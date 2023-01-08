@@ -1,5 +1,6 @@
 package academy.digitallab.store.invoiceservice.entities;
 
+import academy.digitallab.store.invoiceservice.models.Customer;
 import academy.digitallab.store.invoiceservice.models.Product;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Positive;
@@ -26,6 +27,7 @@ public class InvoiceItem  {
 
     @Transient
     private Product product;
+
 
     public Double getSubTotal(){
         if (this.price >0  && this.quantity >0 ){
